@@ -31,14 +31,18 @@ public void verify_001() {
 	//Step 3 getting data from an excel sheet for enter in the username & pwd field
 	Library.custom_sendkeys(login.getEmailid(),excel.getStringData("Sheet1", 0, 0), "Emailid");
 	Library.custom_sendkeys(login.getPassword(),excel.getStringData("Sheet1", 0, 1), "Password");
-	
+	//calling library class
+	Library.custom_click(login.getBtnlogin(), "Login Button");
 	
 	
 	//calling library class step 2
 	
 	//Library.custom_sendkeys(login.getEmailid(), "Test@123.com");
 	//Library.custom_sendkeys(login.getPassword(), "Password");
-	Library.custom_click(login.getBtnlogin(), "Login Button");
+	//Library.custom_click(login.getBtnlogin(), "Login Button");
+	
+	
+	//identified elements
 	//WebElement emailid=driver.findElement(By.xpath("//input[@id='user-name']"));
 	//emailid.sendKeys("Test@123.com");
 	//WebElement password=driver.findElement(By.xpath("//input[@id='password']"));
