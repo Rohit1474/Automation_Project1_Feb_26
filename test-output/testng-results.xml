@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-25T08:03:03 IST" name="Suite" finished-at="2026-03-25T08:03:12 IST" duration-ms="8818">
+  <suite started-at="2026-04-06T08:35:52 IST" name="Suite" finished-at="2026-04-06T08:35:59 IST" duration-ms="6790">
     <groups>
     </groups>
-    <test started-at="2026-03-25T08:03:03 IST" name="Test_chrome" finished-at="2026-03-25T08:03:09 IST" duration-ms="5972">
+    <test started-at="2026-04-06T08:35:52 IST" name="Test_chrome" finished-at="2026-04-06T08:35:56 IST" duration-ms="4217">
       <class name="com.Test.Test_001">
-        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.Test.Test_001@3cce57c7]" started-at="2026-03-25T08:03:03 IST" name="OpenBrowser" finished-at="2026-03-25T08:03:08 IST" duration-ms="5074" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.Test.Test_001@1169afe1]" started-at="2026-04-06T08:35:52 IST" name="OpenBrowser" finished-at="2026-04-06T08:35:56 IST" duration-ms="3703" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,23 +18,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="verify_001()[pri:0, instance:com.Test.Test_001@3cce57c7]" started-at="2026-03-25T08:03:08 IST" name="verify_001" finished-at="2026-03-25T08:03:09 IST" duration-ms="467" status="PASS">
+        <test-method signature="verify_001()[pri:0, instance:com.Test.Test_001@1169afe1]" started-at="2026-04-06T08:35:56 IST" name="verify_001" finished-at="2026-04-06T08:35:56 IST" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_001 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Test.Test_001@3cce57c7]" started-at="2026-03-25T08:03:09 IST" name="TearDown" finished-at="2026-03-25T08:03:09 IST" duration-ms="267" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Test.Test_001@1169afe1]" started-at="2026-04-06T08:35:56 IST" name="TearDown" finished-at="2026-04-06T08:35:56 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.Test.Test_001 -->
     </test> <!-- Test_chrome -->
-    <test started-at="2026-03-25T08:03:10 IST" name="Test_edge" finished-at="2026-03-25T08:03:12 IST" duration-ms="2484">
+    <test started-at="2026-04-06T08:35:56 IST" name="Test_edge" finished-at="2026-04-06T08:35:59 IST" duration-ms="2312">
       <class name="com.Test.Test_001">
-        <test-method is-config="true" signature="BS()[pri:0, instance:com.Test.Test_001@cd1e646]" started-at="2026-03-25T08:03:02 IST" name="BS" finished-at="2026-03-25T08:03:03 IST" duration-ms="843" status="PASS">
+        <test-method is-config="true" signature="BS()[pri:0, instance:com.Test.Test_001@6950ed69]" started-at="2026-04-06T08:35:51 IST" name="BS" finished-at="2026-04-06T08:35:52 IST" duration-ms="555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BS -->
-        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.Test.Test_001@cd1e646]" started-at="2026-03-25T08:03:10 IST" name="OpenBrowser" finished-at="2026-03-25T08:03:11 IST" duration-ms="1898" status="PASS">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:com.Test.Test_001@6950ed69]" started-at="2026-04-06T08:35:56 IST" name="OpenBrowser" finished-at="2026-04-06T08:35:58 IST" duration-ms="1797" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,11 +45,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method signature="verify_001()[pri:0, instance:com.Test.Test_001@cd1e646]" started-at="2026-03-25T08:03:11 IST" name="verify_001" finished-at="2026-03-25T08:03:12 IST" duration-ms="272" status="PASS">
+        <test-method signature="verify_001()[pri:0, instance:com.Test.Test_001@6950ed69]" started-at="2026-04-06T08:35:58 IST" name="verify_001" finished-at="2026-04-06T08:35:58 IST" duration-ms="222" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_001 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Test.Test_001@cd1e646]" started-at="2026-03-25T08:03:12 IST" name="TearDown" finished-at="2026-03-25T08:03:12 IST" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Test.Test_001@6950ed69]" started-at="2026-04-06T08:35:59 IST" name="TearDown" finished-at="2026-04-06T08:35:59 IST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
